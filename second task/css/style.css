@@ -1,0 +1,137 @@
+
+    .container{
+				margin :0 auto;
+				width :50em;
+	}
+	h1,h2,h3,h4,h5,h6{
+		font-family:'Raleway';
+		}
+	.logo nav{
+		position fixed !important;
+		}
+   .clear{
+	   background-color:blue;
+	   }
+	  a,p {
+		  font-family:'Roboto';
+		  } 
+		a{
+			text-decoration:none;
+			color:#eee;} 
+	a:active{
+		color:black;
+		}	
+	a:hover{
+		color:#000;
+		
+		}	
+		nav{
+			display:inline-block;
+			float:right;
+			padding-top:12px;
+			}	
+		ul{
+			list-style:none;
+			padding:0;
+			display:inline-block;
+			
+			} 
+		li{
+			 display:inline-block;
+			 padding-right:10px;
+			
+			}	
+		.logo{
+			display:inline-block;}	
+		.logo h1{
+			font-weight:300;
+			display:inline-block;
+			}	
+	.logo h1 span{
+		font-weight:700 !important;
+		
+		}	
+		.cover{
+			backgroung-color:#263d36;
+			background-image:url(../img/cover.jpg);
+			width:100%;
+			height:100%;
+			background-position:center-top;
+			background-repeat:no-repeat;
+			background-size:cover;
+			max-width:none;
+			padding:10vw 0em;
+			text-align:center;
+			}	
+	     	.cover h3{
+			color:#fff;
+			font-size:2.2em;
+			background-color:rgba(44,62,80,.7);
+			paddind:10px 50px 10px 50px;
+			display:inline-block;
+			border-radius:60px;
+			}	
+			.cover p
+			{
+				color:#fff;
+			 font-size:1.2em;
+				}
+				row11ol1, row1col2{
+					float:left;
+					width:46%;
+					
+					}
+				row1col1{
+					padding-right:6%;
+					}
+				
+				button{
+					font-family:'Roboto';
+					background-color:#2c3e50;
+					color:#fff;
+					border:0;
+					width:8em;
+					height:2em;
+					font-size:1em;
+					
+					}
+					button:hover{
+						background-color:#fff;
+						color:#000;
+						border:1px solid #2c3e50;
+						
+						}
+				sidebar{
+					float:right;
+					padding-top:30px;
+					
+					}
+				.side-img{
+					bakground-color:#000;
+					width:20%;
+					
+					}	
+					blackquote{
+						background:#f9f9f9;
+						border-left:10px solid #ccc;
+						margin-left:0;
+						padding:0.5em 10px;
+						}
+						blackquote:before{
+							
+							color:#ccc;
+							content:open-quote;
+							font-size:4em;
+							line-height:0.1em;
+							margin-right:0.25em;
+							vertical-align:-0.4em;
+							
+							}
+				footer span{
+					
+					font-weight:bold;
+					}
+				
+				.clear{
+               clear: both;
+                         }
